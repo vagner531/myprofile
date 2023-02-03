@@ -43,7 +43,7 @@ const Card = (props: CardProps) => {
         py={5}
         borderWidth="1px"
         _hover={{ shadow: 'lg' }}
-        bg={useColorModeValue('white', 'gray.800')}
+        bg={useColorModeValue('white', '#202024')}
         position="relative"
         rounded="md"
       >
