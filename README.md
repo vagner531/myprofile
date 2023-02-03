@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   <h1><a href="https://mahmad.me" target="_blank">Mahmad.me</a></h1>
   My personal portfolio website to show my skills, experience, and articles I published
 </div>
@@ -49,6 +49,6 @@ The above commands will start the application on [http://localhost:3000/](http:/
 ### Blog
 ![Skills Screen](/public/assets/images/screens/blog_page.png) -->
 
-## Cloning / Forking
+<!-- ## Cloning / Forking
 
-Please review the [LICENSE](LICENSE) and remove all of my personal information (projects, blog posts, images, etc)
+Please review the [LICENSE](LICENSE) and remove all of my personal information (projects, blog posts, images, etc) --> -->
