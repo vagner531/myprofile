@@ -53,9 +53,9 @@ const PopularArticles: React.FC<BlogPostProps> = (props) => {
 
   return (
     <VStack align="start" spacing={8} width="100%">
-      <Header underlineColor={ORANGE} mt={0} mb={0}>
+      {/* <Header underlineColor={ORANGE} mt={0} mb={0}>
         Popular Articles
-      </Header>
+      </Header> */}
       <SimpleGrid columns={1} spacing={4} mt={5} w="100%">
         {posts &&
           posts
@@ -192,7 +192,7 @@ const PopularArticles: React.FC<BlogPostProps> = (props) => {
       <HStack justifyContent="center" width="100%">
         <NextLink href="/blog" passHref>
           <HStack spacing={2} as={Link} color={linkColor}>
-            <Text fontSize="sm">More Articles</Text>
+            {/* <Text fontSize="sm">More Articles</Text> */}
             <Box height="1.2rem" width="1.2rem">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
