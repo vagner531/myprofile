@@ -134,7 +134,7 @@ const About = ({ companies, institutes }) => {
             <Heading>
               <Flex alignItems="center">
                 <Header underlineColor={TURQUOISE} mt={0} mb={0}>
-                  Career
+                Experiência
                 </Header>
                 <Stack pl={3}>
                   <Box as={BsFillBriefcaseFill} size="25px" />
@@ -166,7 +166,7 @@ const About = ({ companies, institutes }) => {
           <Heading>
             <Flex alignItems="center">
               <Header underlineColor={TURQUOISE} mt={0} mb={0}>
-                Education
+              Formação
               </Header>
               <Stack pl={3}>
                 <Box as={FaGraduationCap} size="25px" />

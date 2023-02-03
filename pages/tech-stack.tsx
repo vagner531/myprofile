@@ -70,7 +70,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
           <Section>
             <VStack>
               <Header mt={0} mb={1}>
-                Tech Stack
+              Skills
               </Header>
               <Text
                 fontSize={'xl'}
@@ -78,7 +78,7 @@ const TechStack: NextPage<SkillProps> = ({ skills }) => {
                 maxW="lg"
                 textAlign="center"
               >
-                A list of my favorite tools and technologies that I use on a regular basis.
+                Uma relação das minhas ferramentas e tecnologias favoritas que utilizo com frequência.
               </Text>
             </VStack>
           </Section>

@@ -26,7 +26,7 @@ const SkillCard = ({ name, image, link, description }) => {
           <Link isExternal>
             <HStack
               p={4}
-              bg={useColorModeValue('white', 'gray.800')}
+              bg={useColorModeValue('white', '#202024')}
               rounded="xl"
               borderWidth="1px"
               borderColor={useColorModeValue('gray.100', 'gray.700')}
