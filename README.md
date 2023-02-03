@@ -49,6 +49,3 @@ The above commands will start the application on [http://localhost:3000/](http:/
 ### Blog
 ![Skills Screen](/public/assets/images/screens/blog_page.png) -->
 
-<!-- ## Cloning / Forking
-
-Please review the [LICENSE](LICENSE) and remove all of my personal information (projects, blog posts, images, etc) --> -->
