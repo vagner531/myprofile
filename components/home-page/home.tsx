@@ -18,7 +18,7 @@ import { useLinkColor } from 'components/theme'
 import PopularArticles from './PopularArticles'
 import { BlogPostProps } from 'interfaces/interface'
 import { newContent } from 'data/data'
-import { DownloadButton } from 'pages/DownloadButton';
+import DownloadButton from 'pages/DownloadButton';
 
 const ANIMATION_DURATION = 0.5
 const ORANGE = '#ff9400'
