@@ -142,13 +142,6 @@ const Home: React.FC<BlogPostProps> = (props) => {
             <Box as="span" whiteSpace="nowrap">
             desenvolvedor Front End.
             </Box>{' '}
-            <Box as="span" whiteSpace="nowrap">
-              e amante de Design{' '}
-            </Box>
-              em São Paulo{' '}
-            <Box as="span" whiteSpace="nowrap">
-              - Brasil
-            </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
           Este é meu portfolio, onde posto meus projetos, trabalhos e compartilho o que aprendi. 😊
