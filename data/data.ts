@@ -21,7 +21,7 @@ export const companies = [
       'SEO',
       'UX'
     ],
-    period: '2021-2022',
+    period:'2021-2022',
     logo: '/assets/images/logos/agencia-weber.png'
   }
   // {
