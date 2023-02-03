@@ -10,7 +10,7 @@ const Index: React.FC = () => {
   return (
     <PageLayout title="Vagner Santos - Front End Developer">
       <Home posts={[]} />
-      <Flex flexWrap="wrap" justifyContent="center" mb="">
+      <Flex flexWrap="wrap" justifyContent="center" mb="-1">
         <Box p={5} bg={bgColor} rounded="md" borderWidth="1px" maxW={['100%', '45%']} m={2}>
           <Heading as="h3" size="4" pb="2" color={linkColor}>
             Front-end
