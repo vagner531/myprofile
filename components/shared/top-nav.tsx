@@ -37,7 +37,9 @@ const webLinks = [
 ];
 
 const mobileLinks = [
-  // { name: 'Projects', path: '/projects' },
+  { name: 'Sobre', path: '/about' },
+  { name: 'Skills', path: '/tech-stack' },
+  { name: 'Projects', path: '/projects' },
   // { name: 'Open Source', path: '/open-source' },
   // { name: 'Blog', path: '/blog' },
   // { name: 'Changelog', path: '/changelog' }

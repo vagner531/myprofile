@@ -12,14 +12,6 @@ const siteConfig = {
     author: {
         name: "Vagner Santos",
         accounts: [{
-                /* // {
-                              url: "https://twitter.com/muhammad_ahmaad",
-                              label: "Twitter Account",
-                              type: "twitter",
-                              icon: <FaTwitter />
-                            */
-            },
-            {
                 url: "https://github.com/vagner531",
                 label: "Github Account",
                 type: "gray",
