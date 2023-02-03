@@ -141,7 +141,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
             desenvolvedor Front End.
             </Box>{' '}
             <Box as="span" whiteSpace="nowrap">
-              e amante Design{' '}
+              e amante de Design{' '}
             </Box>
               em São Paulo{' '}
             <Box as="span" whiteSpace="nowrap">

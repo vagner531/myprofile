@@ -189,10 +189,10 @@ const PopularArticles: React.FC<BlogPostProps> = (props) => {
               )
             )}
       </SimpleGrid>
-      <HStack justifyContent="center" width="100%">
+      {/* <HStack justifyContent="center" width="100%">
         <NextLink href="/blog" passHref>
           <HStack spacing={2} as={Link} color={linkColor}>
-            {/* <Text fontSize="sm">More Articles</Text> */}
+            <Text fontSize="sm">More Articles</Text>
             <Box height="1.2rem" width="1.2rem">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -208,7 +208,7 @@ const PopularArticles: React.FC<BlogPostProps> = (props) => {
             </Box>
           </HStack>
         </NextLink>
-      </HStack>
+      </HStack> */}
     </VStack>
   )
 }
