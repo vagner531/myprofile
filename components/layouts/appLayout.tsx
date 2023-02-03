@@ -31,7 +31,7 @@ function DottedSvgs() {
     >
       <Box position="relative" height="full" mx="auto" maxW="940px">
         <Box position="absolute" left="100%">
-          <svg
+          {/* <svg
             className={`${styles.dottedRightTransform} ${styles.dottedColor}`}
             color=""
             width="404"
@@ -52,10 +52,10 @@ function DottedSvgs() {
               </pattern>
             </defs>
             <rect width="404" height="784" fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"></rect>
-          </svg>
+          </svg> */}
         </Box>
         <Box position="absolute" right="100%">
-          <svg
+          {/* <svg
             className={`${styles.dottedLeftTransform}`}
             color="rgba(55,65,81, 1)"
             width="404"
@@ -76,7 +76,7 @@ function DottedSvgs() {
               </pattern>
             </defs>
             <rect width="404" height="784" fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"></rect>
-          </svg>
+          </svg> */}
         </Box>
       </Box>
     </Box>
