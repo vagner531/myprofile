@@ -18,6 +18,7 @@ import { useLinkColor } from 'components/theme'
 import PopularArticles from './PopularArticles'
 import { BlogPostProps } from 'interfaces/interface'
 import { newContent } from 'data/data'
+import { DownloadButton } from 'pages/DownloadButton';
 
 const ANIMATION_DURATION = 0.5
 const ORANGE = '#ff9400'
@@ -63,6 +64,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
               src={'https://github.com/vagner531.png'}
             />
           </MotionBox>
+          <DownloadButton />
         </MotionBox>
         <MotionFlex
           position="relative"
