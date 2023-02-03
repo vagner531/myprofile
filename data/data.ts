@@ -195,17 +195,17 @@ export const skillsArray = [
 
 export const newContent = [
   {
-    link: '/blog/free-12-new-chakra-ui-components-templateskart',
-    text: 'Free 12 new Chakra UI components - TemplatesKart',
+    link: '',
+    text: 'Freelance: Disponivel',
     showNewTag: true
   },
   {
-    link: '/blog/templateskart-free-chakra-ui-components-and-projects',
-    text: 'TemplatesKart | Free Chakra UI Components and Projects',
+    link: '',
+    text: 'Localização: Brasil - São Paulo',
     showNewTag: true
   },
   {
-    link: '/blog/started-2022-by-updating-portfolio-website-1jde-temp-slug-4553258',
-    text: 'Started 2022 by updating portfolio website'
+    link: '',
+    text: 'Hobbies: Filmes, Séries e Games'
   }
 ];

@@ -143,7 +143,7 @@ const Home: React.FC<BlogPostProps> = (props) => {
             <Box as="span" whiteSpace="nowrap">
               e amante Design{' '}
             </Box>
-              de São Paulo{' '}
+              em São Paulo{' '}
             <Box as="span" whiteSpace="nowrap">
               - Brasil
             </Box>
@@ -203,7 +203,7 @@ const ContentBox = ({ linkColor }) => {
         fromcolor="blue.400"
         tocolor="red.500"
       >
-        New year, new content:
+        Sobre:
       </Text>
       <UnorderedList textAlign="left" paddingLeft={5} m={0}>
         {newContent.map((content, index) => (
