@@ -202,7 +202,7 @@ export default function TopNav() {
                       _hover={{ color: linkColor, bg: menuProps.bg }}
                       _active={{ bg: menuProps.bg }}
                     >
-                      Links
+                      Portofólio
                       <Icon
                         as={BiChevronDown}
                         h={5}

@@ -132,25 +132,24 @@ const Home: React.FC<BlogPostProps> = (props) => {
             </MotionBox>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
-            My name is{' '}
+          Meu nome é{' '}
             <Box as="strong" fontWeight="600">
-              Ahmad
+              Vagner
             </Box>{' '}
-            and I&apos;m a{' '}
+            e sou{' '}
             <Box as="span" whiteSpace="nowrap">
-              Full Stack Developer and
+            desenvolvedor Front End.
             </Box>{' '}
             <Box as="span" whiteSpace="nowrap">
-              an open source lover&nbsp;
+              e design
             </Box>
-            from{' '}
+            de{' '}
             <Box as="span" whiteSpace="nowrap">
-              Pakistan 🇵🇰
+              Brasil
             </Box>
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
-            This is my digital garden, where I write about the things I&apos;m
-            working on and share what I&apos;ve learned. 😊
+          Este é meu portfolio, onde posto meus projetos, trabalhos e compartilho o que aprendi. 😊
           </Box>
         </MotionFlex>
       </Flex>
