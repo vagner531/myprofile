@@ -11,7 +11,6 @@ export function DownloadButton(): JSX.Element  {
       bg={bgColor} mt="5"
       borderWidth="1px"
       color="white"
-      mt="5"
     >
       <Flex align="center">
         Download CV
