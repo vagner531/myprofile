@@ -1,4 +1,5 @@
 import { Button, Flex, useColorModeValue } from '@chakra-ui/react';
+import React from 'react';
 
 export function DownloadButton(): JSX.Element  {
   const bgColor = useColorModeValue('gray.00', '#202024');
