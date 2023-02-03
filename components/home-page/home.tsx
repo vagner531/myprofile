@@ -192,7 +192,7 @@ const ContentBox = ({ linkColor }) => {
       borderColor={linkColor}
       color={'whatsapp'}
       _hover={{ shadow: 'lg' }}
-      backgroundColor={useColorModeValue('gray.100', '#1e2533')}
+      bg="linear-gradient(90deg, rgb(39, 26, 69) 0%, rgb(42, 35, 25) 55%, rgb(51, 28, 26) 100%)"
       rounded="sm"
       fontSize="md"
     >
