@@ -33,7 +33,7 @@ function DottedSvgs() {
         <Box position="absolute" left="100%">
           <svg
             className={`${styles.dottedRightTransform} ${styles.dottedColor}`}
-            color="rgba(55,65,81, 1)"
+            color=""
             width="404"
             height="784"
             fill="none"
