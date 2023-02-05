@@ -1,5 +1,24 @@
 export const projectsList = [
   {
+    title: 'Dashgo.',
+    imageLight: '/assets/images/projects/cover/03.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://dashgo-snaw.vercel.app/dashboard',
+    description:
+      'Este projeto é baseado no 4º módulo da trilha ReactJS do Ignite e inclui um banco de dados com Prisma, um sistema CRUD para usuários e autenticação.',
+    techStack: ['Reactjs', 'Nextjs', 'ChakraUI']
+  },
+
+  {
+    title: 'Portfólio',
+    imageLight: '/assets/images/projects/cover/04.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://vagnersantos.netlify.app/',
+    description:
+      'Meu site pessoal de portfólio para mostrar minhas habilidades, experiência e projetos que publiquei...',
+    techStack: ['Reactjs', 'Nextjs', 'ChakraUI']
+  },
+  {
     title: 'bluemoney',
     imageLight: '/assets/images/projects/cover/01.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
@@ -9,10 +28,10 @@ export const projectsList = [
     techStack: ['React', 'Javascript', 'TypeScript']
   },
   {
-    title: 'Peterpitch',
+    title: 'Plants',
     imageLight: '/assets/images/projects/cover/02.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-    site: 'https://github.com/vagner531/website-portfolio-plants',
+    site: 'https://plants-fawn.vercel.app/',
     description:
       'Desenvolvido primeiro com a metodologia Mobile First, depois para desktop.Compatível com todos os dispositivos móveis e com uma interface de usuário bonita e agradável..',
     techStack: ['HTML5', 'CSS3', 'Javascript']
