@@ -24,30 +24,7 @@ export const companies = [
     period:'2021-2022',
     logo: '/assets/images/logos/agencia-weber.png'
   }
-  // {
-  //   title: 'Brainx Technologies',
-  //   alt: 'BT image',
-  //   role: 'Software Engineer',
-  //   skills: ['ruby', 'rails', 'javascript', 'python'],
-  //   period: '2018 - 2019',
-  //   logo: '/assets/images/logos/brainxtech.png'
-  // },
-  // {
-  //   title: "Codenya Studio",
-  //   alt: "CS image",
-  //   role: "Co-founder, CTO",
-  //   skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
-  //   period: "2018 - Present",
-  //   logo: '/assets/images/logos/codenya.png'
-  // },
-  // {
-  //   title: 'Brainplow',
-  //   alt: 'Brainplow image',
-  //   role: 'Software Engineer',
-  //   skills: ['javascript', 'python', 'angular'],
-  //   period: '2017 - 2018',
-  //   logo: '/assets/images/logos/brainplow.jpg'
-  // }
+
 ];
 
 export const institutes = [
@@ -60,24 +37,7 @@ export const institutes = [
     period: '2019 - 2020',
     startingYear: '2013',
     logo: '/assets/images/logos/fiap.png'
-    // awards: [
-    //   {
-    //     title: 'Speed Programming Battle',
-    //     description: 'Won speed programming battle which held at FAST - NUCES.',
-    //     date: 'May 1, 2015'
-    //   },
-    //   {
-    //     title: 'Silver Medal',
-    //     description:
-    //       'This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.',
-    //     date: 'May 1, 2014'
-    //   },
-    //   {
-    //     title: 'Speed Programming Battle',
-    //     description: 'Won speed programming battle which held at FAST - NUCES.',
-    //     date: 'Nov 1, 2013'
-    //   }
-    // ]
+
   },
   {
     short_title: 'Rocketseat',
@@ -88,24 +48,7 @@ export const institutes = [
     period: '2022-2023',
     startingYear: '2013',
     logo: '/assets/images/logos/rocket.jpg'
-    // awards: [
-    //   {
-    //     title: 'Speed Programming Battle',
-    //     description: 'Won speed programming battle which held at FAST - NUCES.',
-    //     date: 'May 1, 2015'
-    //   },
-    //   {
-    //     title: 'Silver Medal',
-    //     description:
-    //       'This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.',
-    //     date: 'May 1, 2014'
-    //   },
-    //   {
-    //     title: 'Speed Programming Battle',
-    //     description: 'Won speed programming battle which held at FAST - NUCES.',
-    //     date: 'Nov 1, 2013'
-    //   }
-    // ]
+
   },
   {
     short_title: 'Rocketseat',
@@ -116,24 +59,7 @@ export const institutes = [
     period: '2020',
     startingYear: '2013',
     logo: '/assets/images/logos/alura.jpg'
-    // awards: [
-    //   {
-    //     title: 'Speed Programming Battle',
-    //     description: 'Won speed programming battle which held at FAST - NUCES.',
-    //     date: 'May 1, 2015'
-    //   },
-    //   {
-    //     title: 'Silver Medal',
-    //     description:
-    //       'This medal was awarded to me by FAST - NUCES for getting a CGPA of 3.9 in 2nd semester.',
-    //     date: 'May 1, 2014'
-    //   },
-    //   {
-    //     title: 'Speed Programming Battle',
-    //     description: 'Won speed programming battle which held at FAST - NUCES.',
-    //     date: 'Nov 1, 2013'
-    //   }
-    // ]
+
   }
 ];
 

@@ -47,6 +47,8 @@ const mobileLinks = [
 
 const dropdownLinks = [
   { name: 'Projetos Web', path: '/projects' },
+  { name: 'Projetos Wordpress', path: '/wordpress' },
+  // { name: 'Projetos WordPress', path: '/projectswordp' },
   // { name: 'Open Source', path: '/open-source' },
   // { name: 'Achievements', path: '/achievements' },
   // { name: 'Changelog', path: '/changelog' }
@@ -105,6 +107,7 @@ const MenuLink = (props: MenuLinkProps) => {
     '/open-source': <Icon as={BsBook} size={18} color={props.color} />,
     '/achievements': <Icon as={BsCheckCircle} size={18} color={props.color} />,
     '/projects': <Icon as={MdTimeline} size={18} color={props.color} />,
+    '/wordpress': <Icon as={MdTimeline} size={18} color={props.color} />,
     '/changelog': <Icon as={CgArrowsExchange} size={18} color={props.color} />
   };
 

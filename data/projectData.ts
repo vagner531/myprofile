@@ -1,5 +1,14 @@
 export const projectsList = [
   {
+    title: 'Finance',
+    imageLight: '/assets/images/projects/cover/05.png',
+    blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
+    site: 'https://finance-lyart.vercel.app/',
+    description:
+      'Este projeto é uma aplicação web de gerenciamento financeiro que permite aos usuários registrar e acompanhar suas transações financeiras.',
+    techStack: ['Reactjs', 'Nextjs', 'Typescript', 'Tailwind', 'StyledComponents']
+  },
+  {
     title: 'Dashgo.',
     imageLight: '/assets/images/projects/cover/03.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
