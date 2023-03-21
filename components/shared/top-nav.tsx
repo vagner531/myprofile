@@ -40,7 +40,7 @@ const mobileLinks = [
   { name: 'Sobre', path: '/about' },
   { name: 'Skills', path: '/tech-stack' },
   { name: 'Projects', path: '/projects' },
-  // { name: 'Open Source', path: '/open-source' },
+  { name: 'Projetos Wordpress', path: '/wordpress' },
   // { name: 'Blog', path: '/blog' },
   // { name: 'Changelog', path: '/changelog' }
 ];
