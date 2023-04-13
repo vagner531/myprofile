@@ -85,9 +85,9 @@ export const skillsArray = [
     type: 'development',
     image: '/assets/images/skills/angular-icon-1.svg'
   },
-  {
+  // {
 
-  },
+  // },
   // {
   //   name: 'Ruby',
   //   description: 'Web development, scrapping',
