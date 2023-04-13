@@ -133,18 +133,18 @@ const Home: React.FC<BlogPostProps> = (props) => {
               </Header>
             </MotionBox>
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left">
+          <Box as="h2" fontSize="1xl" fontWeight="400" textAlign="left">
           Meu nome é{' '}
             <Box as="strong" fontWeight="600">
               Vagner
             </Box>{' '}
             e sou <br />{' '}
             <Box as="span" whiteSpace="nowrap">
-            desenvolvedor Front End e um amante de Design. <br />
+            desenvolvedor Front End. <br />
             Explorando o mundo da Web 3.0.
             </Box>{' '}
           </Box>
-          <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">
+          <Box as="h2" fontSize="1xl" fontWeight="400" mt={5} textAlign="left">
           Este é meu portfolio, onde posto meus projetos, trabalhos e compartilho o que aprendi. 😊
           </Box>
         </MotionFlex>
