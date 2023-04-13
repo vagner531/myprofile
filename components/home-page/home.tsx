@@ -138,9 +138,10 @@ const Home: React.FC<BlogPostProps> = (props) => {
             <Box as="strong" fontWeight="600">
               Vagner
             </Box>{' '}
-            e sou{' '}
+            e sou <br />{' '}
             <Box as="span" whiteSpace="nowrap">
-            desenvolvedor Front End.
+            desenvolvedor Front End e um amante de Design. <br />
+            Explorando o mundo da Web 3.0.
             </Box>{' '}
           </Box>
           <Box as="h2" fontSize="2xl" fontWeight="400" mt={5} textAlign="left">

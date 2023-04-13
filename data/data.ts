@@ -29,25 +29,25 @@ export const companies = [
 
 export const institutes = [
   {
-    short_title: 'FIAP',
-    title: ' Faculdade de Informática e Administração Paulista (FIAP)',
-    alt: 'Nuces image',
-    role: 'Análise e Desenvolvimento de SistemasAnálise e Desenvolvimento de Sistemas',
-    skills: ['System Analysis', 'Web 2.0 Developer and Designer', 'Mobile Developer'],
-    period: '2019 - 2020',
-    startingYear: '2013',
-    logo: '/assets/images/logos/fiap.png'
-
-  },
-  {
     short_title: 'Rocketseat',
     title: 'Bootcamp Ignite - Rocketseat',
     alt: 'Nuces image',
     role: 'Programação fullstack passando por todo o processo do desenvolvimento de sistemas',
-    skills: ['Trilha ReactJS', 'Trilha Node.JS', 'Trilha React Native'],
+    skills: ['ReactJS', 'Node.JS', 'React Native'],
     period: '2022-2023',
     startingYear: '2013',
     logo: '/assets/images/logos/rocket.jpg'
+
+  },
+  {
+    short_title: 'FIAP',
+    title: ' Faculdade de Informática e Administração Paulista (FIAP)',
+    alt: 'Nuces image',
+    role: 'Análise e Desenvolvimento de Sistemas',
+    skills: ['System Analysis', 'Web 2.0 Developer and Designer', 'Mobile Developer'],
+    period: '2019 - 2020',
+    startingYear: '2013',
+    logo: '/assets/images/logos/fiap.png'
 
   },
   {
@@ -64,13 +64,6 @@ export const institutes = [
 ];
 
 export const skillsArray = [
-  // {
-  //   name: 'Ruby on Rails',
-  //   description: 'Web development',
-  //   link: 'https://rubyonrails.org/',
-  //   type: 'development',
-  //   image: '/assets/images/skills/rails.png'
-  // },
   {
     name: 'React',
     description: 'Web development',
@@ -84,6 +77,16 @@ export const skillsArray = [
     link: 'https://nextjs.org/',
     type: 'development',
     image: '/assets/images/skills/nextjs.png'
+  },
+  {
+    name: 'Angular',
+    description: 'Web development',
+    link: 'https://angular.io/',
+    type: 'development',
+    image: '/assets/images/skills/angular-icon-1.svg'
+  },
+  {
+
   },
   // {
   //   name: 'Ruby',
@@ -169,13 +172,13 @@ export const skillsArray = [
     type: 'database',
     image: '/assets/images/skills/mysql.png'
   },
-  {
-    name: 'Node.js',
-    description: 'Backend',
-    link: 'https://nodejs.org/en/',
-    type: 'Backend',
-    image: '/assets/images/skills/node.png'
-  },
+  // {
+  //   name: 'Node.js',
+  //   description: 'Backend',
+  //   link: 'https://nodejs.org/en/',
+  //   type: 'Backend',
+  //   image: '/assets/images/skills/node.png'
+  // },
   // {
   //   name: 'Redis',
   //   description: 'Database',

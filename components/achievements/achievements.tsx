@@ -127,7 +127,7 @@ const Achievements = () => {
               <ExternalLink
                 color={linkColor}
                 url="https://github.com/vagner531?tab=repositories"
-                text={'32 open-source repositories'}
+                text={' 32 open-source repositories'}
                 target="_blank"
               />
             </TimelineItem>
@@ -141,11 +141,11 @@ const Achievements = () => {
               />
             </TimelineItem>
             <TimelineItem icon={FiHome} skipTrail>
-              Built my portfolio website with React and ChakraUI,{' '}
+              Concluir o curso de Análise e Desenvolvimento de Sistemas{' '}
               <ExternalLink
                 color={linkColor}
-                url="https://github.com/vagner531/portfolio2"
-                text={'source on Github'}
+                url="https://www.fiap.com.br/"
+                text={'Fiap'}
                 target="_blank"
               />
               .

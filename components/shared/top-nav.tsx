@@ -34,6 +34,7 @@ import { MotionBox } from 'components/shared/animations/motion';
 const webLinks = [
   { name: 'Sobre', path: '/about' },
   { name: 'Skills', path: '/tech-stack' },
+  // { name: 'Conquistas', path: '/achievements' },
 ];
 
 const mobileLinks = [
@@ -50,7 +51,6 @@ const dropdownLinks = [
   { name: 'Projetos Wordpress', path: '/wordpress' },
   // { name: 'Projetos WordPress', path: '/projectswordp' },
   // { name: 'Open Source', path: '/open-source' },
-  // { name: 'Achievements', path: '/achievements' },
   // { name: 'Changelog', path: '/changelog' }
   // { name: "Developer Story", path: "/developer-story" }
 ];
