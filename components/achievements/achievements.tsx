@@ -56,60 +56,111 @@ const Achievements = () => {
     <PageSlideFade>
       <Box align="start" mb={6}>
         <Header mt={0} mb={0}>
-          Achievements
+        Conquistas
         </Header>
       </Box>
       <VStack textAlign="start" align="start" mb={5}>
-        <Box zIndex={5}>
+      <Box zIndex={5}>
           <Heading fontSize="2xl" fontWeight="600" my={5}>
-            2021
+            2023
           </Heading>
           <Box>
-            <TimelineItem icon={FaTools}>
-              Learnt{' '}
+            <TimelineItem icon={FaTools} skipTrail>
+              Estudando{' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://angular.io/"
+                text={'Angular'}
+                target="_blank"
+              />
+              .
+            </TimelineItem>
+          </Box>
+        </Box>
+      <Box zIndex={5}>
+          <Heading fontSize="2xl" fontWeight="600" my={5}>
+            2022
+          </Heading>
+          <Box>
+            <TimelineItem icon={FiBarChart2}>          
+                Desenvolvi e projetei mais de 4 projetos no Figma para clientes{' '}
+                <ExternalLink
+                  color={linkColor}
+                  url=""
+                  text={''}
+                  target="_blank"
+                />{' '}
+              </TimelineItem>
+            </Box>
+          <Box>
+            <TimelineItem icon={FiPackage}>
+            Criei meu portfólio com{' '}
+            {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://nextjs.org/"
+                text={'Next.js'}
+                target="_blank"
+              />,{' '}
+              {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://chakra-ui.com/"
+                text={'ChakraUI '}
+                target="_blank"
+              />
+               e {' '}
+              <ExternalLink
+                color={linkColor}
+                url="https://www.framer.com/motion/"
+                text={' Framer-motion'}
+                target="_blank"
+              />
+              </TimelineItem>
+            </Box>
+          <Box>
+            <TimelineItem icon={FiHome}>
+                Comecei o Bootcamp Ignite{' '}
+                <ExternalLink
+                  color={linkColor}
+                  url="https://www.rocketseat.com.br/ignite"
+                  text={'Rocketseat'}
+                  target="_blank"
+                />{' '}
+              </TimelineItem>
+            </Box>
+            <Box>
+          <TimelineItem icon={FaTools}>
+              Estudando{' '}
               <ExternalLink
                 color={linkColor}
                 url="https://www.typescriptlang.org"
                 text={'Typescript'}
                 target="_blank"
               />{' '}
-              and{' '}
+              e{' '}
               <ExternalLink
                 color={linkColor}
-                url="https://nextjs.org"
-                text={'Next.js'}
+                url="https://react.dev/"
+                text={'React.js'}
                 target="_blank"
               />
+              
             </TimelineItem>
-            <TimelineItem icon={FiUsers}>Became a dad ❤️</TimelineItem>
-            <TimelineItem icon={FiPackage}>
-              Published 3 posts on my portfolio website{' '}
-              <InternalLink color={linkColor} url="/blog" text={'Blog'} />
-            </TimelineItem>
-            <TimelineItem icon={FiPackage}>
-              Published or contributed to{' '}
-              <InternalLink
-                color={linkColor}
-                url="/open-source"
-                text={'20+ open-source repositories'}
-              />
-            </TimelineItem>
-            <TimelineItem icon={FiBarChart2}>
-              Collected 34k+ posts views and 1.5k+ total reactions on{' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://dev.to/vagner531"
-                text={'Dev.to'}
-                target="_blank"
-              />
-            </TimelineItem>
+          </Box>
+        </Box>
+        <Box zIndex={5}>
+          <Heading fontSize="2xl" fontWeight="600" my={5}>
+            2021
+          </Heading>
+          <Box>
+          
             <TimelineItem icon={FiHome} skipTrail>
-              Rebuilt my portfolio website with React, ChakraUI and
-              Framer-motion,{' '}
+            Comecei a trabalhar como Frontend Developer{' '}
               <ExternalLink
-                color={linkColor}
-                url="https://github.com/vagner531/myPortfolio"
-                text={'source on Github'}
+                color={linkColor} 
+                url=""
+                text={'Agência Weber'}
                 target="_blank"
               />
               .
@@ -121,25 +172,6 @@ const Achievements = () => {
             2020
           </Heading>
           <Box>
-            <TimelineItem icon={FiEdit2}>Wrote 5 blog posts</TimelineItem>
-            <TimelineItem icon={FiPackage}>
-              Published or contributed to{' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://github.com/vagner531?tab=repositories"
-                text={' 32 open-source repositories'}
-                target="_blank"
-              />
-            </TimelineItem>
-            <TimelineItem icon={FiBarChart2}>
-              Collected 650+ post views and 15+ total reactions on{' '}
-              <ExternalLink
-                color={linkColor}
-                url="https://dev.to/vagner531"
-                text={'Dev.to'}
-                target="_blank"
-              />
-            </TimelineItem>
             <TimelineItem icon={FiHome} skipTrail>
               Concluir o curso de Análise e Desenvolvimento de Sistemas{' '}
               <ExternalLink
