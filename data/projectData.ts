@@ -1,12 +1,12 @@
 export const projectsList = [
   {
-    title: 'Finance',
+    title: 'codenews',
     imageLight: '/assets/images/projects/cover/05.png',
     blurHash: 'L4ADc400P*Zi4Tu1y;Qo00pH#YXl',
-    site: 'https://finance-lyart.vercel.app/',
+    site: 'https://code-news-silk.vercel.app/',
     description:
-      'Este projeto é uma aplicação web de gerenciamento financeiro que permite aos usuários registrar e acompanhar suas transações financeiras.',
-    techStack: ['Reactjs', 'Nextjs', 'Typescript', 'Tailwind', 'StyledComponents']
+      'O codenews um lugar onde os programadores compartilham, mantêm-se atualizados e desenvolvem suas carreiras.',
+    techStack: ['Reactjs', 'Vite', 'Typescript']
   },
   {
     title: 'Dashgo.',
