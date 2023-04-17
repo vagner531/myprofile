@@ -7,7 +7,7 @@ export default function DownloadButton(): JSX.Element  {
   return(
     <Button 
       as="a"
-      href="https://drive.google.com/drive/folders/1jRoRa0GbkxdXUEYQbnaF89GEMkAuxg1n?usp=sharing"
+      href="https://drive.google.com/file/d/1reJwGgLhS21_aOapqRo1FQcQww5oo-Uj/view?usp=sharing"
       download 
       target="_blank"
       bg={bgColor} 
