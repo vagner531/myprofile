@@ -42,14 +42,14 @@ const mobileLinks = [
   { name: 'Skills', path: '/tech-stack' },
   { name: 'Conquistas', path: '/achievements' },
   { name: 'Projects', path: '/projects' },
-  { name: 'Wordpress', path: '/wordpress' },
+  // { name: 'Wordpress', path: '/wordpress' },
   // { name: 'Blog', path: '/blog' },
   // { name: 'Changelog', path: '/changelog' }
 ];
 
 const dropdownLinks = [
   { name: 'Projetos Web', path: '/projects' },
-  { name: 'Wordpress', path: '/wordpress' },
+  // { name: 'Wordpress', path: '/wordpress' },
   // { name: 'Projetos WordPress', path: '/projectswordp' },
   // { name: 'Open Source', path: '/open-source' },
   // { name: 'Changelog', path: '/changelog' }
