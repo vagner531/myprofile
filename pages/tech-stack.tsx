@@ -44,8 +44,8 @@ const tabList = [
     icon: GiSpiderWeb
   },
   {
-    name: 'Devops',
-    filterName: 'devops',
+    name: 'Cloud',
+    filterName: 'cloud',
     icon: AiOutlineCloudServer
   }
 ];

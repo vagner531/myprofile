@@ -172,13 +172,13 @@ export const skillsArray = [
     type: 'database',
     image: '/assets/images/skills/mysql.png'
   },
-  // {
-  //   name: 'Node.js',
-  //   description: 'Backend',
-  //   link: 'https://nodejs.org/en/',
-  //   type: 'Backend',
-  //   image: '/assets/images/skills/node.png'
-  // },
+  {
+    name: 'Node.js',
+    description: 'Backend',
+    link: 'https://nodejs.org/en/',
+    type: 'Backend',
+    image: '/assets/images/skills/node.png'
+  },
   // {
   //   name: 'Redis',
   //   description: 'Database',
@@ -188,10 +188,17 @@ export const skillsArray = [
   // },
   {
     name: 'Heroku',
-    description: 'Devops',
+    description: 'Cloud',
     link: 'https://www.heroku.com/',
     type: 'devops',
     image: '/assets/images/skills/heroku.png'
+  },
+  {
+    name: 'AWS',
+    description: 'Devops',
+    link: 'https://aws.amazon.com/',
+    type: 'devops',
+    image: 'assets/images/skills/aws.png'
   },
 
   {
