@@ -190,14 +190,14 @@ export const skillsArray = [
     name: 'Heroku',
     description: 'Cloud',
     link: 'https://www.heroku.com/',
-    type: 'devops',
+    type: 'cloud',
     image: '/assets/images/skills/heroku.png'
   },
   {
     name: 'AWS',
-    description: 'Devops',
+    description: 'Cloud',
     link: 'https://aws.amazon.com/',
-    type: 'devops',
+    type: 'cloud',
     image: 'assets/images/skills/aws.png'
   },
 
